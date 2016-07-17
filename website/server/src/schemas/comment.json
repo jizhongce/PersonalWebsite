@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "LastName": {
+      "id": "LastName",
+      "type": "string"
+    },
+    "FirstName": {
+      "id": "FirstName",
+      "type": "string"
+    },
+    "Email": {
+      "id": "Email",
+      "type": "string"
+    },
+    "Contents": {
+      "id": "Contents",
+      "type": "string"
+    },
+    "postDate": {
+      "id": "postDate",
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "LastName",
+    "FirstName",
+    "Email",
+    "Contents",
+    "postDate"
+  ]
+}

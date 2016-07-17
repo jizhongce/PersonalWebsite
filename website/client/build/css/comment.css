@@ -1,0 +1,132 @@
+@font-face {
+    font-family: cdream;
+    src: url(../fonts/CaviarDreams.ttf) format('truetype');
+}
+@font-face {
+  font-family: cdream_blod_italic;
+  src: url(../fonts/CaviarDreams_BoldItalic.ttf) format('truetype');
+}
+
+.commenttread{
+  margin-top: 20px;
+}
+
+.commenttread .comments{
+  margin-top: 15px;
+}
+
+.commentheader{
+  font-family: cdream_blod_italic;
+  font-size: 20px;
+}
+
+.commentpost{
+  width: 600px;
+  background-color: #0ff519;
+  font-family: cdream_blod_italic;
+}
+
+.commentpost:hover{
+  background-color: #0ff519;
+  font-family: cdream_blod_italic;
+}
+
+.commentpost:focus{
+  background-color: #0ff519;
+  font-family: cdream_blod_italic;
+}
+
+.submitbutton{
+  font-family: cdream_blod_italic;
+  margin-top: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.clearbutton{
+  font-family: cdream_blod_italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.firstuser{
+  font-family: cdream_blod_italic;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.seconduser{
+  font-family: cdream_blod_italic;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.firstnamefield{
+  font-family: cdream_blod_italic;
+  width: 250px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.lastnamefield{
+  font-family: cdream_blod_italic;
+  width: 250px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.emailaddress{
+  font-family: cdream_blod_italic;
+  width: 550px;
+  margin-top: 10px;
+}
+
+.replyfield{
+  font-family: cdream_blod_italic;
+  margin-top: 10px;
+
+}
+
+.commentsfield{
+  font-family: cdream_blod_italic;
+  margin-top: 10px;
+}
+
+.firsttime{
+  font-family: cdream_blod_italic;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100px;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+.secondtime{
+  font-family: cdream_blod_italic;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 200px;
+  margin-right: 150px;
+  margin-left: 50px;
+}
+
+.alter input{
+  border-color: #ff7575;
+ -webkit-box-shadow: 0 0 8px 1px rgba(255,89,0,1);
+ -moz-box-shadow: 0 0 8px 1px rgba(255,89,0,1);
+ box-shadow: 0 0 8px 1px rgba(255,89,0,1);
+
+}
+
+.alter textarea{
+  border-color: #ff7575;
+ -webkit-box-shadow: 0 0 8px 1px rgba(255,89,0,1);
+ -moz-box-shadow: 0 0 8px 1px rgba(255,89,0,1);
+ box-shadow: 0 0 8px 1px rgba(255,89,0,1);
+
+}

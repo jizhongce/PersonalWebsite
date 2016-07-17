@@ -1,0 +1,188 @@
+@font-face {
+    font-family: cdream;
+    src: url(../fonts/CaviarDreams.ttf) format('truetype');
+}
+@font-face {
+  font-family: cdream_blod_italic;
+  src: url(../fonts/CaviarDreams_BoldItalic.ttf) format('truetype');
+}
+
+
+  body {
+    padding-top: 70px;
+    background-color: #e9f0f5;
+  }
+
+  .zeromargin{
+    margin: 0;
+  }
+
+  .dropdown .toggletag{
+    size:15px;
+  }
+  .dropbutton {
+    font-size: 15px;
+    font-family: cdream_blod_italic;
+    border: none;
+  }
+
+  .resume{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .middlebutton{
+    float: left;
+    width: 30px;
+    height: 0;
+  }
+
+  .leftnavbar{
+    position: fixed;
+    margin-top: 50px;
+  }
+
+  .Pinfo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .profilepanel .profileheader{
+    font-family: cdream_blod_italic;
+    font-size: 40px;
+  }
+
+  .lifepanel .lifeheader{
+    font-family: cdream_blod_italic;
+    font-size: 40px;
+  }
+
+  .projectpanel .projectheader{
+    font-family: cdream_blod_italic;
+    font-size: 40px;
+  }
+
+  .Lifeinfo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .Lifeproj {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .buttons {
+    font-family: cdream;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: inherit;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  .leftbuttons {
+    font-family: cdream;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: inherit;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  .leftbuttons:hover{
+    font-family: cdream;
+    background-color: inherit;
+    font-size: 20px;
+  }
+
+  .mainpart .profilepanel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-style: solid;
+  }
+  .mainpart .lifepanel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-style: solid;
+  }
+  .mainpart .projectpanel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-style: solid;
+  }
+  .mainpart {
+    height: 600px;
+  }
+
+  .mainbutton {
+    border: none;
+    text-align: center;
+    background-color: inherit;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .mainbutton:hover{
+    background-color: inherit;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .mainbutton:focus{
+    background-color: inherit;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .buttons:hover{
+    background-color: inherit;
+    -webkit-box-shadow: 0 0 18px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 18px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 18px 0 rgba(0,0,0,0.75);
+  }
+
+  .buttons:focus{
+    background-color: inherit;
+    -webkit-box-shadow: 0 0 18px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 18px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 18px 0 rgba(0,0,0,0.75);
+  }
+
+  .navbar {
+    background-color: white;
+    -webkit-box-shadow: 0 10px 27px 4px rgba(224,224,224,1);
+    -moz-box-shadow: 0 10px 27px 4px rgba(224,224,224,1);
+    box-shadow: 0 10px 27px 4px rgba(224,224,224,1);
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .footerstyle {
+    font-family: cdream_blod_italic;
+    margin-bottom: 0;
+    height: 60px;
+    color: white;
+
+  }
+
+  .footer {
+    background-color: #424242;
+  }
